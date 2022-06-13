@@ -1,0 +1,10 @@
+NAME: При поиске на сайте авито по запросу {TEST DATA} в результатах отображается - {TEST DATA}
+TEST DATA: [Rorsche Cayenne, Renault Logan]
+PRIORITY: CRITICAL
+PRECONDITIONS:
+   - Открыть сайт https://www.avito.ru
+STEPS:
+   - В поле поиска по объявлениям введите текст {TEST DATA}
+   - Нажмите Enter
+EXPECTED RESULT:
+   - Сайт выдаёт нам объявления о продаже авто {TEST DATA}
